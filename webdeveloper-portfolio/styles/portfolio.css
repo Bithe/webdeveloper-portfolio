@@ -5,7 +5,7 @@ body {
 
 .header {
   background-color: #fff8f3;
-  background-image: url('../images/header_bg.png');
+  background-image: url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -62,9 +62,8 @@ nav a {
   justify-content: space-between;
 }
 
-.banner-content{
-    max-width: 500px;
-
+.banner-content {
+  max-width: 500px;
 }
 
 .banner-greeting {
@@ -72,7 +71,7 @@ nav a {
   font-size: 45px;
   font-style: normal;
   font-weight: 600;
-  margin-bottom: 5px ;
+  margin-bottom: 5px;
 }
 .banner-tittle {
   color: var(--Dark-01, #181818);
@@ -82,51 +81,165 @@ nav a {
   margin-bottom: 20px;
 }
 
-.banner-decription{
-    margin-bottom: 30px;
-    color: var(--Dark-03, #757575);
+.banner-decription {
+  margin-bottom: 30px;
+  color: var(--Dark-03, #757575);
 
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
 }
-.profile-pic{
-    width: 550px;
+.profile-pic {
+  width: 550px;
 }
 
 /* header ends */
 
-
 /* main starts */
 
+main section {
+  margin-top: 130px;
+}
+
 /* about starts */
-.primary-pink-color{
-    background-color: #FFF8F3;
+.primary-pink-color {
+  background-color: #fff8f3;
 }
 
-.about{
-    padding: 130px;
-    border-radius: 10px;
-    margin: 130px;
+main {
+  max-width: 1140px;
+  margin: 0px auto;
 }
 
-.section-tittle{
-    color: var(--Dark-01, #181818);
-    text-align: center;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 700;
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  margin: 130px 0px;
+  padding: 131px;
+}
+
+.section-tittle {
+  color: var(--Dark-01, #181818);
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.section-description {
+  color: var(--Dark-03, #757575);
+  text-align: center;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.about-info-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.info-tittle {
+  color: var(--Dark-03, #757575);
+  text-align: center;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.info-description {
+  color: var(--Dark-02, #474747);
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* about ends */
+
+/* what i do starts */
+
+#do-description {
+  padding: 30px 220px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+  padding: 30px;
+}
+
+.skill-tittle {
+  color: var(--Dark-01, #181818);
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.skill-description {
+  color: var(--Dark-03, #757575);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+/* what i do ENDS */
+
+/* resume starts */
+
+.resume-container {
+  display: flex;
+  gap: 71px;
+}
+
+.resume-column-tittle {
+  color: var(--Dark-02, #474747);
+
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.resume-info-tittle {
+  color: var(--Dark-02, #474747);
+
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.resume-info-subtittle {
+  color: var(--Dark-03, #757575);
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.resume-info-description {
+  color: var(--Dark-03, #757575);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.resume-container hr{
+    border-color: #6a247d;
     
 }
-
-.section-description{
-    color: var(--Dark-03, #757575);
-text-align: center;
-
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-
-
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
+
