@@ -243,3 +243,32 @@ main {
     margin-top: 50px;
 }
 
+/* resume ENDS */
+
+
+/* footer starts */
+
+footer{
+  display: flex;
+  gap: 117px;
+  padding: 130px 200px;
+  margin-top: 30px;
+}
+
+.footer-column{
+  width: 100%;
+}
+.footer-column > p{
+  
+  text-align: justify;
+}
+
+.form-message input[type="text"], input[type="email"], textarea{
+  display: block;
+  margin-bottom: 24px;
+  border-radius: 5px;
+background: var(--White-Color, #FFF);
+padding: 18px 60px;
+border: none;
+width: 100%;
+}
