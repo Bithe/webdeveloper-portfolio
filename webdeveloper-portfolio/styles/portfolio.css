@@ -2,6 +2,10 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+.header {
+  background-color: #fff8f3;
+}
 .text-orange-color {
   color: #fd6e0a;
 }
@@ -22,6 +26,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 200px;
 }
 
 .nav-tittle {
@@ -43,4 +48,28 @@ nav li {
 
 nav a {
   text-decoration: none;
+}
+
+/* Banner starts */
+
+.banner {
+  padding: 30px 30px 30px 200px;
+  display: flex;
+}
+
+.banner-greeting {
+  color: var(--Dark-02, #474747);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+}
+.banner-tittle {
+  color: var(--Dark-01, #181818);
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.profile-pic{
+    width: 500px;
 }
