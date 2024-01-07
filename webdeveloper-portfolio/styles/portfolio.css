@@ -5,9 +5,9 @@ body {
 
 .header {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"), url('../images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 .text-orange-color {
   color: #fd6e0a;
@@ -253,6 +253,10 @@ footer{
   gap: 117px;
   padding: 130px 200px;
   margin-top: 30px;
+}
+
+.social-links>a{
+  margin-right: 24px;
 }
 
 .footer-column{
